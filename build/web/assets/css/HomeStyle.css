@@ -1,0 +1,23 @@
+
+table{
+    text-align: center;
+    margin: auto;
+}
+td {
+    text-align: center;
+}
+th, td{
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    padding: 25px;
+}
+tr:nth-child(even){
+    background-color: rgba(0,255,255,0.3);
+}
+
+.login-box{
+    width: 40vw;
+    height: 70vh;
+    padding: 80px;
+}
